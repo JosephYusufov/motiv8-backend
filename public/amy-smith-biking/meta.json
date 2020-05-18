@@ -1,0 +1,11 @@
+{
+    "title": "My Favorite Road Bikes",
+    "description": "I've seen a lot of bikes, and these are my favorites",
+    "author": {
+        "name": "Amy Smith",
+        "instagram": "https://google.com",
+        "youtube": "https://google.com",
+        "facebook": "https://google.com",
+        "profilePicture": "https://google.com"
+    }
+}
