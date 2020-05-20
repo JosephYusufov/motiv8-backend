@@ -1,6 +1,8 @@
 {
     "title": "My Favorite Road Bikes",
     "description": "I've seen a lot of bikes, and these are my favorites",
+    "path": "amy-smith-biking",
+    "image": "https://placekitten.com/300/200",
     "author": {
         "name": "Amy Smith",
         "instagram": "https://google.com",
