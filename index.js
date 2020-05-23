@@ -2,6 +2,7 @@ var express = require('express');
 var cors = require('cors'); var fs = require('fs'); 
 var path = require('path');
 var fs = require('fs');
+var https = require('https');
 var currentDir = process.cwd();
 
 app = express();
@@ -35,7 +36,7 @@ const filterAndProcess = (filePathsArray) => {
 };
 
 app.use(cors())
-app.use(express.static('public'));
+app.use(express.static('public', { dotfiles: 'allow' }));
 
 app.get('/', (req, res) => {
     res.send('An alligator approaches!');
@@ -47,6 +48,12 @@ app.get('/list', (req, res) => {
     res.send(fileNames);
 });
 
-app.listen(9000, () => {
-    console.log('motiv8 listening on port 9000')
+
+
+
+https.createServer({
+	key: fs.readFileSync('/etc/letsencrypt/live/josephyusufov.me/privkey.pem'),
+	cert: fs.readFileSync('/etc/letsencrypt/live/josephyusufov.me/fullchain.pem')
+}, app).listen(443, () => {
+    console.log('motiv8 listening on port 443')
 })
