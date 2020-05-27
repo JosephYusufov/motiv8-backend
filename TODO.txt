@@ -1,0 +1,3 @@
+- Check that domain resolves to the correct IP
+- configure vhosts for api.readbitwise.com
+- configure ssl certificate in Express
