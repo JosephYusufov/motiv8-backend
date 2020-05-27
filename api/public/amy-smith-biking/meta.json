@@ -1,0 +1,14 @@
+{
+    "title": "My Favorite Road Bikes",
+    "description": "I've seen a lot of bikes, and these are my favorites",
+    "path": "amy-smith-biking",
+    "image": "https://placekitten.com/300/200",
+    "author": {
+        "name": "Amy Smith",
+        "description": "I'm amy, and I sell seashells by the seashore. Check me out below!",
+        "profilePicture": "https://placekitten.com/100/100",
+        "instagram": "https://google.com",
+        "youtube": "https://google.com",
+        "facebook": "https://google.com"
+    }
+}
