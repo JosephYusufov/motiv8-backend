@@ -52,8 +52,8 @@ app.get('/list', (req, res) => {
 });
 
 app.get('/article/:articleId', (req, res) => {
-    req.params.articleId
-})
+    res.sendFile(path.join(process.cwd() + 'api' + 'public' + req.params.articleId + 'index.js'));
+});
 
 
 
