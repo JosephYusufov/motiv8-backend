@@ -7,7 +7,7 @@ var cors = require('cors');
 
 const app = express();
 app.use(vhost('api.readbitwise.com', require('./api/index.js').app));
-app.use(cors);
+app.use(cors());
 
 https.createServer({
      key: fs.readFileSync('/etc/letsencrypt/live/api.readbitwise.com/privkey.pem'),
