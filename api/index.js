@@ -8,7 +8,7 @@ var fs = require('fs');
 var currentDir = process.cwd();
 
 app = express();
-app.use(cors());
+app.use(cors);
 app.use(express.static(process.cwd() + '/api/public', { dotfiles: 'allow' }));
 
 const getAllFiles = (dirPath, arrayOfFiles) => {
