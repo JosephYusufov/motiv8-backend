@@ -9,6 +9,7 @@ var currentDir = process.cwd();
 
 app = express();
 app.use(cors());
+app.options('*', cors());
 app.use(express.static(process.cwd() + '/api/public', { dotfiles: 'allow' }));
 
 const getAllFiles = (dirPath, arrayOfFiles) => {
