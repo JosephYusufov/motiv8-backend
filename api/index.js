@@ -12,7 +12,6 @@ app.use(express.static(process.cwd() + '/api/public', { dotfiles: 'allow' }));
 app.use(cors({credentials: true, origin: true}));
 
 const getAllFiles = (dirPath, arrayOfFiles) => {
-	console.log(process.cwd());
     const files = fs.readdirSync(dirPath);
     arrayOfFiles = arrayOfFiles || [];
 
@@ -52,11 +51,12 @@ app.get('/list', (req, res) => {
 });
 
 app.get('/article/:articleId', (req, res) => {
-    res.sendFile(path.join(process.cwd() + '/api' + '/public/' + req.params.articleId + '/index.md'));
+	console.log(req.
+    res.send(fs.readFileSync(path.join(process.cwd() + '/api' + '/public/' + req.params.articleId + '/index.md'), 'utf-8'));
 });
 
 app.get('/meta/:articleId', (req, res) => {
-    res.sendFile(path.join(process.cwd() + '/api' + '/public/' + req.params.articleId + '/meta.json'));
+    res.send(fs.readFileSync(path.join(process.cwd() + '/api' + '/public/' + req.params.articleId + '/meta.json'), 'utf-8'));
 });
 
 
