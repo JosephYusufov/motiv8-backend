@@ -3,11 +3,11 @@ var vhost = require('vhost');
 var express = require('express');
 var https = require('https');
 var fs = require('fs');
+var cors = require('cors');
 
-// .use(vhost('api.readbitwise.com', require('./api/index.js').app))
-// .listen(80)
 const app = express();
 app.use(vhost('api.readbitwise.com', require('./api/index.js').app));
+app.use(cors());
 
 https.createServer({
      key: fs.readFileSync('/etc/letsencrypt/live/api.readbitwise.com/privkey.pem'),
