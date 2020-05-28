@@ -51,7 +51,6 @@ app.get('/list', (req, res) => {
 });
 
 app.get('/article/:articleId', (req, res) => {
-	console.log(req.
     res.send(fs.readFileSync(path.join(process.cwd() + '/api' + '/public/' + req.params.articleId + '/index.md'), 'utf-8'));
 });
 
