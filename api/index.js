@@ -55,6 +55,10 @@ app.get('/article/:articleId', (req, res) => {
     res.sendFile(path.join(process.cwd() + '/api' + '/public/' + req.params.articleId + '/index.md'));
 });
 
+app.get('/meta/:articleId', (req, res) => {
+    res.sendFile(path.join(process.cwd() + '/api' + '/public/' + req.params.articleId + '/meta.json'));
+});
+
 
 
 
