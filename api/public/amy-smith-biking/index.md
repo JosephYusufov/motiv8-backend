@@ -1,6 +1,3 @@
-
-# Lorem Ipsum
-
 ## Lorem
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo et tortor a hendrerit. Mauris vel elit pharetra, pharetra est porttitor, dictum felis. Etiam ullamcorper metus nec molestie viverra. Suspendisse pharetra auctor convallis. Curabitur sit amet sodales ex. Nullam ut neque id nisl cursus vehicula. Suspendisse tempus felis vel sem hendrerit tristique. Sed eleifend lacus vitae ipsum euismod volutpat. Nam ut mauris varius, bibendum felis quis, tristique libero.
 
