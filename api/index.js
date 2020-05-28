@@ -52,7 +52,7 @@ app.get('/list', (req, res) => {
 });
 
 app.get('/article/:articleId', (req, res) => {
-    res.sendFile(path.join(process.cwd() + 'api' + 'public' + req.params.articleId + 'index.js'));
+    res.sendFile(path.join(process.cwd() + '/api' + '/public/' + req.params.articleId + '/index.js'));
 });
 
 
