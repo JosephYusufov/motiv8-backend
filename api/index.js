@@ -8,9 +8,9 @@ var fs = require('fs');
 var currentDir = process.cwd();
 
 app = express();
+app.use(express.static(process.cwd() + '/api/public', { dotfiles: 'allow' }));
 app.use(cors());
 app.options('*', cors());
-app.use(express.static(process.cwd() + '/api/public', { dotfiles: 'allow' }));
 
 const getAllFiles = (dirPath, arrayOfFiles) => {
 	console.log(process.cwd());
@@ -51,6 +51,10 @@ app.get('/list', (req, res) => {
     console.log(fileNames);
     res.send(fileNames);
 });
+
+app.get('/article/:articleId', (req, res) => {
+    req.params.articleId
+})
 
 
 
