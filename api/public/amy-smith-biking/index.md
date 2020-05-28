@@ -6,6 +6,8 @@ Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculu
 ## Ipsum
 Sed fringilla laoreet arcu et molestie. Nunc nec tristique ipsum, eu fermentum enim. Cras convallis, nibh vitae pretium aliquam, orci purus faucibus nisl, nec convallis nisl tortor a justo. Sed consequat sodales massa et maximus. Donec eleifend tristique lectus, ut aliquam neque tristique ut. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis ac scelerisque arcu, a commodo velit. Quisque ac nisl quis dolor auctor viverra ac at elit. Phasellus gravida est dui, tempor scelerisque arcu aliquet vitae. Vestibulum tincidunt in massa id fermentum.
 
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
 Suspendisse sit amet est varius, accumsan sapien non, condimentum quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed elit est, varius eget nunc quis, ultrices bibendum felis. Integer facilisis metus eu elementum sagittis. Nam pretium lacus a orci tempus tempus. Nullam nec nunc sed risus sodales egestas nec nec quam. Curabitur eu accumsan eros. Etiam metus justo, lobortis at mauris id, finibus fermentum leo. Vivamus tincidunt ultricies dolor, nec tincidunt mauris vestibulum eget. Morbi tristique sapien semper, placerat mauris faucibus, elementum orci. Suspendisse ullamcorper accumsan velit, at maximus massa. Curabitur purus ante, eleifend eget cursus et, ullamcorper eu felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus malesuada arcu sit amet ante dapibus semper. Nulla consectetur justo diam, at euismod elit varius eget.
 
 ## Dolor
