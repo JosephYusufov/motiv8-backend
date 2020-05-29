@@ -10,11 +10,11 @@ app.use(vhost('api.readbitwise.com', require('./api/index.js').app));
 app.use(vhost('readbitwise.com', require('./client/index.js').app));
 app.use(cors({credentials: true, origin: true}));
 
-// https.createServer({
-//      key: fs.readFileSync('/etc/letsencrypt/live/api.readbitwise.com/privkey.pem'),
-//      cert: fs.readFileSync('/etc/letsencrypt/live/api.readbitwise.com/fullchain.pem')
-// }, app)
-app.listen(80, () => {
+https.createServer({
+     key: fs.readFileSync('/etc/letsencrypt/live/api.readbitwise.com/privkey.pem'),
+     cert: fs.readFileSync('/etc/letsencrypt/live/api.readbitwise.com/fullchain.pem')
+}, app)
+.listen(443, () => {
     console.log('motiv8 listening on port 80')
 })
 
