@@ -136,7 +136,7 @@ We see the colored shadow effect begin to take place. Now let's make this shadow
 
 The padding values that I chose here for the two states of the shadow - 7px and 1px / 13px, are what I think look best, but you can make them whatever you want. It’s very important to note, however, that the total vertical padding must be equal in the two states of the shadow.
 
-![alt text](padding-explained.png)
+![alt text](https://readbitwise.com/api/joseph-yusufov-shadow/padding-explained.png)
 
 With that, we’re all done. Happy designing!
 
