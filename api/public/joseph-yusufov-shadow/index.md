@@ -5,7 +5,6 @@ The longer a webpage takes to load, the less likely your user is to engage with 
 ```html
    <div class="shadow-box">
        <div class="shadow-content">
-           <h3 class="color-badge">Featured</h3>
            <h1>Bitwise</h1>
            <h3>Mouse over me!</h3>
        </div>
@@ -31,14 +30,14 @@ The markup here is extremely simple, we have our content surrounded by two conta
 }
 ```
 <style>
-.shadow-box{
+.shadow-box-1{
     background: rgb(0,196,204);
     background: linear-gradient(90deg, rgba(0,196,204,1) 0%, rgba(124,42,232,1) 100%);
     border-radius: 5px;
     margin: 0;
 }
  
-.shadow-content{
+.shadow-content-1{
     display: inline-block;
     width: 100%;
     background: #FFFFFF;
@@ -49,9 +48,8 @@ The markup here is extremely simple, we have our content surrounded by two conta
     margin: 0;
 }
 </style>
-<div class="shadow-box">
-    <div class="shadow-content">
-        <h3 class="color-badge">Featured</h3>
+<div class="shadow-box-1">
+    <div class="shadow-content-1">
         <h1>Bitwise</h1>
         <h3>Mouse over me!</h3>
     </div>
@@ -66,7 +64,7 @@ Right now, this just looks like black text on a white background, but that’s b
 }
 ```
 <style>
-.shadow-box{
+.shadow-box-2{
     background: rgb(0,196,204);
     background: linear-gradient(90deg, rgba(0,196,204,1) 0%, rgba(124,42,232,1) 100%);
     border-radius: 5px;
@@ -74,7 +72,7 @@ Right now, this just looks like black text on a white background, but that’s b
     margin: 0;
 }
  
-.shadow-content{
+.shadow-content-2{
     display: inline-block;
     width: 100%;
     background: #FFFFFF;
@@ -85,9 +83,8 @@ Right now, this just looks like black text on a white background, but that’s b
     margin: 0;
 }
 </style>
-<div class="shadow-box">
-    <div class="shadow-content">
-        <h3 class="color-badge">Featured</h3>
+<div class="shadow-box-2">
+    <div class="shadow-content-2">
         <h1>Bitwise</h1>
         <h3>Mouse over me!</h3>
     </div>
@@ -107,7 +104,7 @@ We see the colored shadow effect begin to take place. Now let's make this shadow
 ```
 
 <style>
-.shadow-box{
+.shadow-box-3{
     background: rgb(0,196,204);
     background: linear-gradient(90deg, rgba(0,196,204,1) 0%, rgba(124,42,232,1) 100%);
     border-radius: 5px;
@@ -115,11 +112,11 @@ We see the colored shadow effect begin to take place. Now let's make this shadow
     transition: 0.25s;
     margin: 0;
 }
-.shadow-box:hover{
+.shadow-box-3:hover{
     padding: 1px 1px 13px 13px;
     transition: 0.25s;
 }
-.shadow-content{
+.shadow-content-3{
     display: inline-block;
     width: 100%;
     background: #FFFFFF;
@@ -130,9 +127,8 @@ We see the colored shadow effect begin to take place. Now let's make this shadow
     border-radius: 5px
 }
 </style>
-<div class="shadow-box">
-    <div class="shadow-content">
-        <h3 class="color-badge">Featured</h3>
+<div class="shadow-box-3">
+    <div class="shadow-content-3">
         <h1>Bitwise</h1>
         <h3>Mouse over me!</h3>
     </div>
