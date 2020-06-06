@@ -27,6 +27,7 @@ The markup here is extremely simple, we have our content surrounded by two conta
     box-sizing: border-box;
     padding: 10px;
     border-radius: 5px;
+    margin: 0;
 }
 ```
 <style>
@@ -34,6 +35,7 @@ The markup here is extremely simple, we have our content surrounded by two conta
     background: rgb(0,196,204);
     background: linear-gradient(90deg, rgba(0,196,204,1) 0%, rgba(124,42,232,1) 100%);
     border-radius: 5px;
+    margin: 0;
 }
  
 .shadow-content{
@@ -44,6 +46,7 @@ The markup here is extremely simple, we have our content surrounded by two conta
     box-sizing: border-box;
     padding: 10px;
     border-radius: 5px;
+    margin: 0;
 }
 </style>
 <div class="shadow-box">
@@ -68,6 +71,7 @@ Right now, this just looks like black text on a white background, but that’s b
     background: linear-gradient(90deg, rgba(0,196,204,1) 0%, rgba(124,42,232,1) 100%);
     border-radius: 5px;
     padding: 7px;
+    margin: 0;
 }
  
 .shadow-content{
@@ -78,6 +82,7 @@ Right now, this just looks like black text on a white background, but that’s b
     box-sizing: border-box;
     padding: 10px;
     border-radius: 5px;
+    margin: 0;
 }
 </style>
 <div class="shadow-box">
@@ -108,6 +113,7 @@ We see the colored shadow effect begin to take place. Now let's make this shadow
     border-radius: 5px;
     padding: 7px;
     transition: 0.25s;
+    margin: 0;
 }
 .shadow-box:hover{
     padding: 1px 1px 13px 13px;
@@ -120,7 +126,8 @@ We see the colored shadow effect begin to take place. Now let's make this shadow
     height: 100%;
     box-sizing: border-box;
     padding: 10px;
-    border-radius: 5px;
+    margin: 0;
+    border-radius: 5px
 }
 </style>
 <div class="shadow-box">
