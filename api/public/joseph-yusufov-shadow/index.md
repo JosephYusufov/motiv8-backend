@@ -3,12 +3,12 @@ The longer a webpage takes to load, the less likely your user is to engage with 
 
 ## The Code
 ```html
-   <div class="shadow-box">
-       <div class="shadow-content">
-           <h1>Bitwise</h1>
-           <h3>Mouse over me!</h3>
-       </div>
-   </div>
+<div class="shadow-box">
+    <div class="shadow-content">
+        <h1>Bitwise</h1>
+        <h3>Mouse over me!</h3>
+    </div>
+</div>
 ```
 The markup here is extremely simple, we have our content surrounded by two containers, one of which provides the shadow effect. Now let's get started with the CSS.
 ```css
