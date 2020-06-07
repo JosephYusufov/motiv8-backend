@@ -35,6 +35,7 @@ The markup here is extremely simple, we have our content surrounded by two conta
     background: linear-gradient(90deg, rgba(0,196,204,1) 0%, rgba(124,42,232,1) 100%);
     border-radius: 5px;
     margin: 0;
+    width: 100%;
 }
  
 .shadow-content-1{
@@ -46,6 +47,7 @@ The markup here is extremely simple, we have our content surrounded by two conta
     padding: 10px;
     border-radius: 5px;
     margin: 0;
+    width: 100%;
 }
 </style>
 <div class="shadow-box-1">
@@ -70,6 +72,7 @@ Right now, this just looks like black text on a white background, but that’s b
     border-radius: 5px;
     padding: 7px;
     margin: 0;
+    width: 100%;
 }
  
 .shadow-content-2{
@@ -111,6 +114,7 @@ We see the colored shadow effect begin to take place. Now let's make this shadow
     padding: 7px;
     transition: 0.25s;
     margin: 0;
+    width: 100%;
 }
 .shadow-box-3:hover{
     padding: 1px 1px 13px 13px;
