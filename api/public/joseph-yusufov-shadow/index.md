@@ -2,8 +2,7 @@
 The longer a webpage takes to load, the less likely your user is to engage with your content. Memory-intensive JavaScript animations eat up local resources, and make today’s websites unbearably slow. That’s why today we’re going to learn how to make this awesome colored shadow effect using only CSS! Lets jump into the markup.
 
 ## The Code
-~~~html 
-<div class="shadow-box">
+~~~html <div class="shadow-box">
     <div class="shadow-content">
         <h1>Bitwise</h1>
         <h3>Mouse over me!</h3>
