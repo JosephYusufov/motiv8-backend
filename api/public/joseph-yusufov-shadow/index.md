@@ -14,7 +14,12 @@ The markup here is extremely simple, we have our content surrounded by two conta
 ```css
 .shadow-box{
     background: rgb(0,196,204);
-    background: linear-gradient(90deg, rgba(0,196,204,1) 0%, rgba(124,42,232,1) 100%);
+    background: linear-gradient(
+        90deg, 
+        rgba(0,196,204,1) 
+        0%, 
+        rgba(124,42,232,1) 
+        100%);
     border-radius: 5px;
 }
  
