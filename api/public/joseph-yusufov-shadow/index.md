@@ -29,7 +29,7 @@ The markup here is extremely simple, we have our content surrounded by two conta
     margin: 0;
 }
 ```
-<style>
+<!-- <style>
 .shadow-box-1{
     background: rgb(0,196,204);
     background: linear-gradient(90deg, rgba(0,196,204,1) 0%, rgba(124,42,232,1) 100%);
@@ -55,7 +55,7 @@ The markup here is extremely simple, we have our content surrounded by two conta
         <h1>Bitwise</h1>
         <h3>Mouse over me!</h3>
     </div>
-</div>
+</div> -->
 
 The `shadow-box` container has a colored background - a gradient in this case - and the `shadow-content` container has a white background.
 Right now, this just looks like black text on a white background, but that’s because both containers are the same size. If we give `shadow-box` some padding.
@@ -65,7 +65,7 @@ Right now, this just looks like black text on a white background, but that’s b
     padding: 7px;
 }
 ```
-<style>
+<!-- <style>
 .shadow-box-2{
     background: rgb(0,196,204);
     background: linear-gradient(90deg, rgba(0,196,204,1) 0%, rgba(124,42,232,1) 100%);
@@ -91,7 +91,7 @@ Right now, this just looks like black text on a white background, but that’s b
         <h1>Bitwise</h1>
         <h3>Mouse over me!</h3>
     </div>
-</div>
+</div> -->
 
 We see the colored shadow effect begin to take place. Now let's make this shadow interactive, by giving the content a raised look when the user hovers over the component.
 
@@ -106,7 +106,7 @@ We see the colored shadow effect begin to take place. Now let's make this shadow
 }
 ```
 
-<style>
+<!-- <style>
 .shadow-box-3{
     background: rgb(0,196,204);
     background: linear-gradient(90deg, rgba(0,196,204,1) 0%, rgba(124,42,232,1) 100%);
@@ -136,7 +136,7 @@ We see the colored shadow effect begin to take place. Now let's make this shadow
         <h1>Bitwise</h1>
         <h3>Mouse over me!</h3>
     </div>
-</div>
+</div> -->
 
 The padding values that I chose here for the two states of the shadow - 7px and 1px / 13px, are what I think look best, but you can make them whatever you want. It’s very important to note, however, that the total vertical padding must be equal in the two states of the shadow.
 
