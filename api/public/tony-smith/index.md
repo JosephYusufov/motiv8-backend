@@ -1,1 +1,0 @@
-New York city is absolutely, undoubtedly the best city in the world.
