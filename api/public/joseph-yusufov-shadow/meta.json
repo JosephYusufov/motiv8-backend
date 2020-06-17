@@ -3,7 +3,7 @@
     "description": "Use only CSS to creaete this beautiful shadow effect",
     "path": "joseph-yusufov-shadow",
     "image": "https://api.readbitwise.com/joseph-yusufov-shadow/cover.png",    
-    "featured": true,
+    "featured": false,
     "author": {
         "name": "Joseph Yusufov",
         "description": "Joseph is the founder of Bitwise studies Computer Science and Economics at NYU, and is a lover of all things web development.",

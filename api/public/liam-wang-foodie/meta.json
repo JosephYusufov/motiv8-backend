@@ -1,0 +1,13 @@
+{
+    "title": "3 Tips to Manage your Instagram Feed in 2020",
+    "description": "Learn a few tricks that will make your profile stand out, and leave a good impression on yout audience",
+    "path": "liam-wang-foodie",
+    "image": "https://api.readbitwise.com/liam-wang-foodie/cover.png",    
+    "featured": true,
+    "author": {
+        "name": "Liam Wang",
+        "description": "A foodie and car enthusiast who loves to connect with other people.",
+        "instagram": "https://www.instagram.com/theliamwang/",
+        "profilePicture": "https://api.readbitwise.com/liam-wang-foodie/profile-picture.jpg"
+    }
+}
