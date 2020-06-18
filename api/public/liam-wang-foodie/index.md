@@ -9,7 +9,7 @@ Theming plays a big role in attracting audiences for your content. In fact, this
 
 ## 2. Edit your Posts
 
-![editing_posts](https://api.readbitwise.com/liam-wang-foodie/cover.jpg)
+![editing_posts](https://api.readbitwise.com/liam-wang-foodie/cover.png)
 
 In order to support your theme, you also need to edit the photo so that it fits the style of your theme. In the above comparison, the left photo is unedited, and the right photo has been touched up. In order to support your theme, you also need to edit the photo that fits your theme style. Editing your Instagram post helps enhance the existing colors in your photos, and your editing style can also become your own signature. A few of the editing techniques that you can use are sharpening the little details, emphasizing shadows to create depth in your pictures, and focusing on certain elements of your post. There are many ways to edit your post, however I like to use the same filters on each of my photos where I try to surface all little details on my post to be visually appealing. If you don’t have much experience editing photos, there are many intuitive editing apps out there such as [Snapseed](https://apps.apple.com/us/app/snapseed/id439438619), [Lightroom](https://apps.apple.com/us/app/adobe-lightroom-photo-editor/id878783582) and [Quickshot](https://apps.apple.com/us/app/enlight-quickshot-edit-photos/id1254875992) which come with their own presets and filters.
 
@@ -19,7 +19,7 @@ Your feed will not look appealing without the right content. Posting a “honey 
 
 A good honey post can combine a few of these “honey elements”, but keeping your usage of these elements to 1-3 per post will help to organize the content in your feed better, and will introduce consistency and originality throughout your feed. 
 
-These are a few tricks that you can implement right now to improve your feed. Afterall, Instagram is the place where you can express yourself with your own specific style and there are no universal rules on what “Nice” should look like. I hope that this article is helpful, if you have any questions please dm me [@theliamwang](https://www.instagram.com/theliamwang/) on Instagram. I's be happy to chat with you.
+These are a few tricks that you can implement right now to improve your feed. Afterall, Instagram is the place where you can express yourself with your own specific style and there are no universal rules on what “Nice” should look like. I hope that this article is helpful, if you have any questions please dm me [@theliamwang](https://www.instagram.com/theliamwang/) on Instagram. I'd be happy to chat with you.
 
 Happy Posting!
 
