@@ -3,7 +3,7 @@
     "description": "Welcome to **part one** of this series, where I'll be documenting the concepts I am currently learning as part of my journey to better understand the JavaScript Language.",
     "path": "yusufcodes-js",
     "image": "https://api.readbitwise.com/yusufcodes-js/cover.jpg",    
-    "featured": false,
+    "featured": true,
     "author": {
         "name": "Yusuf Chowdhury",
         "description": "I’m Yusuf, a BSc Computer Science student based in Manchester, United Kingdom. I have a passion for Web Development and have since been documenting my journey online",

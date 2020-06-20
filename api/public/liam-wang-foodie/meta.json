@@ -3,7 +3,7 @@
     "description": "Learn a few tricks that will make your profile stand out, and leave a good impression on yout audience",
     "path": "liam-wang-foodie",
     "image": "https://api.readbitwise.com/liam-wang-foodie/cover.png",    
-    "featured": true,
+    "featured": false,
     "author": {
         "name": "Liam Wang",
         "description": "A foodie and car enthusiast who loves to connect with other people.",
