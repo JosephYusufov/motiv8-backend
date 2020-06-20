@@ -4,9 +4,6 @@ var fs = require('fs');
 var path = require('path');
 var fs = require('fs');
 
-// var https = require('https');
-var currentDir = process.cwd();
-
 app = express();
 app.use(express.static(process.cwd() + '/api/public', { dotfiles: 'allow' }));
 app.use(cors({credentials: true, origin: true}));
@@ -41,6 +38,10 @@ const filterAndProcess = (filePathsArray) => {
 
 
 app.get('/', (req, res) => {
+    res.send('An alligator approaches!');
+});
+
+app.get('/mailing-list/add', (req, res) => {
     res.send('An alligator approaches!');
 });
 
