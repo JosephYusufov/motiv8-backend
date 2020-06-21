@@ -3,10 +3,14 @@ var cors = require('cors');
 var fs = require('fs'); 
 var path = require('path');
 var fs = require('fs');
+const fetch = require('node-fetch');
+const bodyParser = require('body-parser');
+
 
 app = express();
 app.use(express.static(process.cwd() + '/api/public', { dotfiles: 'allow' }));
 app.use(cors({credentials: true, origin: true}));
+app.use(bodyParser.json());
 
 const getAllFiles = (dirPath, arrayOfFiles) => {
     const files = fs.readdirSync(dirPath);
@@ -41,8 +45,22 @@ app.get('/', (req, res) => {
     res.send('An alligator approaches!');
 });
 
-app.get('/mailing-list/add', (req, res) => {
-    res.send('An alligator approaches!');
+app.post('/mailing-list/add', (req, res) => {
+    const auth = "Basic " + Buffer.from('admin' + ":" + "3d630f66fc261a89b8bfbc1e9b3d93fe-us10").toString('base64');
+    console.log(req.body);
+    fetch('https://us10.api.mailchimp.com/3.0/lists/0a9c037483/members/', {
+        method: "POST",
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': auth
+        },
+        body: JSON.stringify(req.body)
+    }).catch(err => {
+        res.send(err);
+    }).then(mailChimpRes => {
+        res.status(mailChimpRes.status);
+        res.send();
+    });
 });
 
 app.get('/list', (req, res) => {
