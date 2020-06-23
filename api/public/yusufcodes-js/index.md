@@ -227,4 +227,4 @@ In **part one** of this series, I've covered the following ES6 JavaScript concep
 ***Note:*** I am in no way, shape or form, an expert when it comes to JavaScript. My idea and motive behind these posts are to help myself better understand these concepts as I learn them, whilst trying to give something back to the community.
 If there is anything fundamentally wrong with the information I've shared, please let me know. We're all still learning, and we can certainly do that together! 😊
 
-Find me on [Instagram](www.instagram.com/yusufcodes) and [Twitter](www.twitter.com/yusufcodes), where I post about the tech that I'm currently working with, and document my journey as a Computer Science student🙂.
+Find me on [Instagram](https://www.instagram.com/yusufcodes) and [Twitter](https://www.twitter.com/yusufcodes), where I post about the tech that I'm currently working with, and document my journey as a Computer Science student🙂.
