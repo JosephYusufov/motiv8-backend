@@ -1,0 +1,14 @@
+{
+    "title": "The 7 Steps to Building Incredible Websites",
+    "description": "Step 1: You have to define your project. This step requires many questions. What’s the main goal of the site? What’s the main ...",
+    "path": "richard-busato-website",
+    "image": "https://api.readbitwise.com/richard-busato-website/cover.png",    
+    "featured": false,
+    "author": {
+        "name": "Richard Busato",
+        "description": "Hi, I am Richard Busato. I'm a Web and iOS App Developer, and I’m also studying Mechatronics Engineering. I recently fell in love with Design. I love to share my experiences and prove that Anyone Can Do Anything -- No excuses.",
+        "instagram": "https://www.instagram.com/richardbusato/ ",
+        "youtube": "https://bit.ly/2A2yZrW",
+        "profilePicture": "https://api.readbitwise.com/richard-busato-website/profile-picture.jpeg"
+    }
+}
